@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "amateisati-mmeval_jd023"
+name = "amateisati-jailbreak_template_variants_distribution_profile"
 version = "0.1.0"
 description = "抽取数值做分布分析，用中位数绝对偏差识别多模态评测工程师·越狱模板的变体识别上的离群点"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://amateisati.github.io"
-Repository = "https://github.com/amateisati/mmeval_jd023"
-Issues = "https://github.com/amateisati/mmeval_jd023/issues"
+Repository = "https://github.com/amateisati/jailbreak_template_variants_distribution_profile"
+Issues = "https://github.com/amateisati/jailbreak_template_variants_distribution_profile/issues"
 
 [project.scripts]
-mmeval_jd023 = "mmeval_jd023:main"
+jailbreak_template_variants_distribution_profile = "jailbreak_template_variants_distribution_profile:main"
 
 [tool.setuptools]
-py-modules = ["mmeval_jd023"]
+py-modules = ["jailbreak_template_variants_distribution_profile"]
